@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin : 0;
+            padding : 0;
+        }
+        div {
+            border : 1px solid gray;
+            line-height : 70px;
+            height : 70px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>디바이스마다 달라지는 레이아웃</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 text-center">lorem1</div> <!-- 어떠한 디바이스라도 크기 12 차지, 글자 가운데 정렬 -->
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-xs-12 text-center">lorem2</div>
+            <div class="col-md-4 col-xs-12 text-center">lorem3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-center">lorem4</div>
+            <div class="col-md-4 col-xs-12 text-center">lorem5</div>
+            <div class="col-md-4 col-xs-12 text-center">lorem6</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">lorem7</div>
+        </div>
+    </div>
+</body>
+</html>
