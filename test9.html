@@ -1,0 +1,57 @@
+<!-- 그리드 시스템(Naver) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        div {
+            height : 70px;
+            border : 1px solid gray;
+        }
+        .green {
+            background-color: #98ff98;
+        }
+        .row>.green>ul>li {
+            display : inline;
+        }
+        .pink {
+            height : 500px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>그리드 시스템</h1>
+    <div class="container-flued">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 green">header(Naver Logo)</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 green">
+                <ul>
+                    <li>메일</li>
+                    <li>카페</li>
+                    <li>블로그</li>
+                    <li>지식IN</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-8 pink">section1(왼쪽 기사)</div>
+            <div class="col-xs-12 col-sm-4 pink">aside(오른쪽 광고)</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 green">footer(하단 주소)</div>
+        </div>
+    </div>
+</body>
+</html>
